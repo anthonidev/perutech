@@ -78,7 +78,7 @@ const Items = [
 const SidebarDashboard = () => {
   return (
     <div className='h-full w-60 border-r-4'>
-      <ul>
+      <ul className='my-3'>
         {Items.map((item, index) => (
           <LinkItem key={index} {...item} />
         ))}
